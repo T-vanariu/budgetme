@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Blueprint §3.1 colour tokens */
+@layer base {
+  :root {
+    --bg: #f4f2ec;
+    --surface: rgba(255, 255, 255, 0.95);
+    --surface2: #f1efe9;
+    --text: #17181a;
+    --muted: #5a5d64;
+    --border: #e0dcd2;
+    --ink: #17181a;
+    --onink: #ffffff;
+    --needs: #2f5bd3;
+    --wants: #c46e1a;
+    --save: #1b8a5a;
+    --over: #c2362b;
+    --track: #e7e3da;
+    --auth-bg: #111315;
+    --auth-text: #ecebe6;
+    --auth-btn: #4dbe8a;
+    --auth-btn-text: #0b1f16;
+    color-scheme: light;
+  }
+  .dark {
+    --bg: #111315;
+    --surface: rgba(25, 27, 31, 0.95);
+    --surface2: #20232a;
+    --text: #ecebe6;
+    --muted: #a3a6ad;
+    --border: #2f333a;
+    --ink: #ecebe6;
+    --onink: #111315;
+    --needs: #7b9bf2;
+    --wants: #f0a45a;
+    --save: #4dbe8a;
+    --over: #f0766a;
+    --track: #2b2e35;
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    min-height: 100%;
+  }
+  body {
+    @apply bg-bg font-sans text-text antialiased;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+  :focus-visible {
+    outline: 2px solid var(--needs);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  /* tabular-nums everywhere money is shown */
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .card {
+    @apply rounded-card border border-border bg-surface p-4 md:p-5;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

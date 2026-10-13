@@ -1,0 +1,14 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+supabase/.env.local
+supabase/.temp
+mcp-server/.env
+mcp-server/node_modules
+mcp-server/dist
+playwright-report
+test-results
+*.log
+.DS_Store

@@ -1,0 +1,15 @@
+title = "BudgetMe gitleaks config"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Placeholders and local-only demo values"
+regexes = [
+  '''<<[A-Z_ |.]+>>''',
+  '''demo-password-123''',
+]
+paths = [
+  '''package-lock\.json''',
+  '''mcp-server/package-lock\.json''',
+]

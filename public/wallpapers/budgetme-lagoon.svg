@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- Kina lagoon: reef water, island silhouette and a floating kina shell. Original artwork for BudgetMe. -->
+  <defs>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7FD3D0"/>
+      <stop offset=".45" stop-color="#2FA3A6"/>
+      <stop offset="1" stop-color="#0E5560"/>
+    </linearGradient>
+    <radialGradient id="sun" cx=".78" cy=".18" r=".35">
+      <stop offset="0" stop-color="#FFF4D6" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#FFF4D6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".9"/>
+      <stop offset=".6" stop-color="#E6F4F1" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#C6E4E8" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#water)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 360c140-30 230-90 330-90s170 70 260 80 160-40 240-40v60H0z" fill="#0F4B4F" opacity=".55"/>
+  <g fill="none" stroke="#E9FBF8" stroke-opacity=".28" stroke-width="3">
+    <path d="M0 520c180-30 360-30 540 0s360 30 540 0 360-30 520-10"/>
+    <path d="M0 610c200-35 380-35 560 0s360 35 540 0 340-30 500-10"/>
+    <path d="M0 700c200-35 380-35 560 0s360 35 540 0 340-30 500-10"/>
+    <path d="M0 800c200-35 380-35 560 0s360 35 540 0 340-30 500-10"/>
+  </g>
+  <path d="M980 560c190 20 360 150 400 330-110-130-270-220-450-250z" fill="url(#shell)"/>
+  <path d="M980 560c170 30 320 140 370 300" fill="none" stroke="#8CC8C4" stroke-opacity=".7" stroke-width="3"/>
+  <g fill="#F0A45A" opacity=".75">
+    <circle cx="420" cy="760" r="7"/><circle cx="450" cy="790" r="5"/><circle cx="1220" cy="420" r="6"/>
+  </g>
+</svg>

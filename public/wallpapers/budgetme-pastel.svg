@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+  <!-- Kina pastel: soft dawn colours with crescent kina-shell forms. Original artwork for BudgetMe. -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7EBDD"/>
+      <stop offset=".55" stop-color="#EEDFD3"/>
+      <stop offset="1" stop-color="#DCE8E1"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx=".2" cy=".25" r=".45">
+      <stop offset="0" stop-color="#F6C9A8" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#F6C9A8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx=".85" cy=".8" r=".5">
+      <stop offset="0" stop-color="#B9DCCB" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#B9DCCB" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".85"/>
+      <stop offset=".5" stop-color="#F3E3F0" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#E2EEF5" stop-opacity=".85"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glowA)"/>
+  <rect width="1600" height="1000" fill="url(#glowB)"/>
+  <path d="M1040 170c160 40 300 170 330 330-90-120-230-210-390-220z" fill="url(#shell)"/>
+  <path d="M1040 170c150 50 260 160 300 300" fill="none" stroke="#C9A8B8" stroke-opacity=".5" stroke-width="3"/>
+  <path d="M230 650c120 10 240 90 290 210-80-80-190-130-310-140z" fill="url(#shell)" opacity=".8"/>
+  <g fill="none" stroke="#C7B39B" stroke-opacity=".35" stroke-width="2">
+    <path d="M0 780c200-60 420-60 640 0s440 60 660 0 300-40 300-40"/>
+    <path d="M0 830c220-50 430-50 650 5s430 55 650 0 300-35 300-35"/>
+    <path d="M0 880c220-45 430-45 650 5s430 50 650 0 300-30 300-30"/>
+  </g>
+  <circle cx="1320" cy="140" r="6" fill="#E7A97F" opacity=".6"/>
+  <circle cx="1360" cy="190" r="4" fill="#9CC9B3" opacity=".7"/>
+  <circle cx="300" cy="200" r="5" fill="#B7A6CF" opacity=".6"/>
+</svg>
